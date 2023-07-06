@@ -212,7 +212,7 @@
         //Special Effects
         [HideInInspector] m_start_specialeffects("Special Effects", Float) = 0
         [HideInInspector] m_start_emissionglow("Emission / Archon Glow", Float) = 0
-        [Enum(Default, 0, Custom, 1)] _EmissionType("Emission Type", Float) = 1.0
+        [Enum(Default, 0, Custom, 1)] _EmissionType("Emission Type", Float) = 0
         [Gamma] _EmissionColor ("Emission Tint", Color) = (1.0, 1.0, 1.0, 1.0)
         [NoScaleOffset] [HDR] _CustomEmissionTex ("Custom Emission Texture--{condition_show:{type:PROPERTY_BOOL,data:_EmissionType==1}}", 2D) = "black"{}
         [NoScaleOffset] _CustomEmissionAOTex ("Custom Emission AO--{condition_show:{type:PROPERTY_BOOL,data:_EmissionType==1}}", 2D) = "white"{}
